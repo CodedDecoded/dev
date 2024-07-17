@@ -5,10 +5,10 @@
 // License text available at https://opensource.org/licenses/MIT
 
 export const METADATA = {
-  title: "Portfolio | Ayush Singh",
+  title: "Portfolio | Dinesh Kumar",
   description:
     "I bridge the gap between design and development. I take responsibility to craft an aesthetic user experience using modern frontend architecture.",
-  siteUrl: "https://ayushsingh.net/",
+  siteUrl: "https://dineshonweb.vercel.app/",
 };
 
 export const MENULINKS = [
@@ -41,18 +41,18 @@ export const TYPED_STRINGS = [
   "I design and develop motion",
 ];
 
-export const EMAIL = "ayush.singh.xda@gmail.com";
+export const EMAIL = "dineshkumarrrr@gmail.com";
 
 export const SOCIAL_LINKS = {
-  linkedin: "https://www.linkedin.com/in/alphaayush/",
-  github: "https://github.com/ayush013",
-  medium: "https://alphaayush.medium.com/",
-  instagram: "https://www.instagram.com/alphaayush/",
-  facebook: "https://www.facebook.com/ayush013",
-  dribbble: "https://dribbble.com/alphaayush",
-  behance: "https://www.behance.net/alphaayush/",
-  twitter: "https://twitter.com/ayush013",
-  topmate: "https://www.topmate.io/alphaayush/",
+  linkedin: "https://www.linkedin.com/in/iamdineshkumar/",
+  github: "https://github.com/CodedDecoded",
+  medium: "#",
+  instagram: "https://www.instagram.com/dineshslays/",
+  facebook: "#",
+  dribbble: "#",
+  behance: "#",
+  twitter: "#",
+  topmate: "#",
 };
 
 export interface IProject {

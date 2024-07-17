@@ -100,7 +100,7 @@ const HeroSection = React.memo(() => {
           }}
           href="/Dinesh_Resume.pdf"
         ></Button>
-        <Button
+        {/* <Button
           classes="ml-3"
           type={ButtonTypes.PRIMARY}
           name="Let's Talk"
@@ -109,7 +109,7 @@ const HeroSection = React.memo(() => {
             target: "_blank",
             rel: "noreferrer",
           }}
-        ></Button>
+        ></Button> */}
       </div>
     </div>
   );

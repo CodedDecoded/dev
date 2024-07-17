@@ -231,14 +231,14 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   // },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "Current",
+    title: "2024 (Current)",
     size: ItemSize.LARGE,
     shouldDrawLine: false,
     alignment: Branch.LEFT,
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "Frontend Engineer (Current)",
+    title: "Frontend Engineer",
     size: ItemSize.SMALL,
     subtitle:
       "Frontend Engineering @ Core team, Changed a High-end Liferay based analytical tool to Angular 17, saving a lot of $$ for client😎",
@@ -267,7 +267,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "2020",
+    title: "2021",
     size: ItemSize.LARGE,
     shouldDrawLine: false,
     alignment: Branch.LEFT,
@@ -291,7 +291,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     title: "Easytoask.org (Volunteer)",
     size: ItemSize.SMALL,
     subtitle: "Providing information about Oxygen Cylinders, Hospital Beds at the time of peak Covid-19 outbreak",
-    image: "",
+    image: "/timeline/easytoask.png",
     slideImage: "/timeline/Easytoask.png",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
@@ -301,7 +301,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "2021",
+    title: "2020",
     size: ItemSize.LARGE,
     shouldDrawLine: false,
     alignment: Branch.LEFT,
@@ -415,21 +415,21 @@ export const TIMELINE: Array<TimelineNodeV2> = [
 
   {
     type: NodeTypes.CHECKPOINT,
-    title: "Volunteer/",
+    title: "Web Developer",
     size: ItemSize.SMALL,
     subtitle:
-      "Guided 300+ students on getting started with web technologies like HTML/CSS and JS",
-    slideImage: "/timeline/web-17.jpg",
+      "Created a portfolio website for our College's Computer Science department head.",
+    slideImage: "/timeline/arpita.png",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "2016",
-    size: ItemSize.LARGE,
-    shouldDrawLine: false,
-    alignment: Branch.RIGHT,
-  },
+  // {
+  //   type: NodeTypes.CHECKPOINT,
+  //   title: "2016",
+  //   size: ItemSize.LARGE,
+  //   shouldDrawLine: false,
+  //   alignment: Branch.RIGHT,
+  // },
   {
     type: NodeTypes.CHECKPOINT,
     title: "dubpc.org",
@@ -462,22 +462,22 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   // },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "2015",
+    title: "2013",
     size: ItemSize.LARGE,
     shouldDrawLine: false,
     alignment: Branch.LEFT,
   },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "Web Developer",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Created a portfolio website for our College's Computer Science department head.",
-    image: "",
-    slideImage: "/timeline/arpita.png",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
-  },
+  // {
+  //   type: NodeTypes.CHECKPOINT,
+  //   title: "Web Developer",
+  //   size: ItemSize.SMALL,
+  //   subtitle:
+  //     "Created a portfolio website for our College's Computer Science department head.",
+  //   image: "",
+  //   slideImage: "/timeline/arpita.png",
+  //   shouldDrawLine: true,
+  //   alignment: Branch.LEFT,
+  // },
 ];
 
 export type TimelineNodeV2 = CheckpointNode | BranchNode;

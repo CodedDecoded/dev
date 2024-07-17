@@ -211,24 +211,24 @@ export enum ItemSize {
 }
 
 export const TIMELINE: Array<TimelineNodeV2> = [
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "2023",
-    size: ItemSize.LARGE,
-    shouldDrawLine: false,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "Speaker at React India",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Discussed on Interaction to Next Paint (INP), a Google Core Web Vital metric",
-    image: "/timeline/reactindia.svg",
-    slideImage: "/timeline/reactindia.jpg",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
-  },
+  // {
+  //   type: NodeTypes.CHECKPOINT,
+  //   title: "2023",
+  //   size: ItemSize.LARGE,
+  //   shouldDrawLine: false,
+  //   alignment: Branch.LEFT,
+  // },
+  // {
+  //   type: NodeTypes.CHECKPOINT,
+  //   title: "Speaker at React India",
+  //   size: ItemSize.SMALL,
+  //   subtitle:
+  //     "Discussed on Interaction to Next Paint (INP), a Google Core Web Vital metric",
+  //   image: "/timeline/reactindia.svg",
+  //   slideImage: "/timeline/reactindia.jpg",
+  //   shouldDrawLine: true,
+  //   alignment: Branch.LEFT,
+  // },
   {
     type: NodeTypes.CHECKPOINT,
     title: "Current",
@@ -247,13 +247,13 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "2023",
-    size: ItemSize.LARGE,
-    shouldDrawLine: false,
-    alignment: Branch.LEFT,
-  },
+  // {
+  //   type: NodeTypes.CHECKPOINT,
+  //   title: "2023",
+  //   size: ItemSize.LARGE,
+  //   shouldDrawLine: false,
+  //   alignment: Branch.LEFT,
+  // },
   {
     type: NodeTypes.CHECKPOINT,
     title: "Frontend Developer",
@@ -291,8 +291,8 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     title: "Easytoask.org (Volunteer)",
     size: ItemSize.SMALL,
     subtitle: "Providing information about Oxygen Cylinders, Hospital Beds at the time of peak Covid-19 outbreak",
-    image: "/timeline/octanner.svg",
-    slideImage: "/timeline/aftereffects.jpg",
+    image: "",
+    slideImage: "/timeline/Easytoask.png",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
@@ -301,7 +301,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "2020",
+    title: "2021",
     size: ItemSize.LARGE,
     shouldDrawLine: false,
     alignment: Branch.LEFT,
@@ -323,7 +323,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     size: ItemSize.SMALL,
     subtitle:
       "First job! 🥳 Product design and development and worked for 20+ websites, landing pages, mini web games with web optimizations",
-    image: "/timeline/timeus.svg",
+    image: "/timeline/timeuslogo.png",
     slideImage: "/timeline/timeus.png",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
@@ -413,16 +413,16 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   //   alignment: Branch.RIGHT,
   // },
 
-  // {
-  //   type: NodeTypes.CHECKPOINT,
-  //   title: "Lecture on Web Technologies",
-  //   size: ItemSize.SMALL,
-  //   subtitle:
-  //     "Guided 300+ students on getting started with web technologies like HTML/CSS and JS",
-  //   slideImage: "/timeline/web-17.jpg",
-  //   shouldDrawLine: true,
-  //   alignment: Branch.LEFT,
-  // },
+  {
+    type: NodeTypes.CHECKPOINT,
+    title: "Volunteer/",
+    size: ItemSize.SMALL,
+    subtitle:
+      "Guided 300+ students on getting started with web technologies like HTML/CSS and JS",
+    slideImage: "/timeline/web-17.jpg",
+    shouldDrawLine: true,
+    alignment: Branch.LEFT,
+  },
   {
     type: NodeTypes.CHECKPOINT,
     title: "2016",
@@ -435,7 +435,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     title: "dubpc.org",
     size: ItemSize.SMALL,
     subtitle: "Created Website for Computer Science Department Placement Cell, which later provided placement offer to our students.",
-    slideImage: "/timeline/DUBPG.gif",
+    slideImage: "/timeline/DUBPC.gif",
     shouldDrawLine: true,
     alignment: Branch.RIGHT,
   },

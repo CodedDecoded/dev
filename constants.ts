@@ -242,8 +242,8 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     size: ItemSize.SMALL,
     subtitle:
       "Frontend Engineering @ Core team, Changed a High-end Liferay based analytical tool to Angular 17, saving a lot of $$ for client😎",
-    image: "/timeline/hotstar.svg",
-    slideImage: "/timeline/hotstar.jpeg",
+    image: "/timeline/tcs-logo-1.svg",
+    slideImage: "/timeline/tcs-page.gif",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
@@ -281,7 +281,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     size: ItemSize.SMALL,
     subtitle:
       "Worked with USAs biggest business listing advertising company and created Dashboards, Data centric analytic reports",
-    image: "/timeline/huminos.svg",
+    image: "/timeline/teamware.png",
     slideImage: "/timeline/huminos-freelance.jpg",
     shouldDrawLine: true,
     alignment: Branch.RIGHT,
@@ -306,25 +306,25 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     shouldDrawLine: false,
     alignment: Branch.LEFT,
   },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "Data Analytical Tools",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Created a highly complex Data Analytical Tool for a competitors in cosmetics",
-    image: "/timeline/dltlabs.svg",
-    slideImage: "/timeline/dlt-website.jpg",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
-  },
+  // {
+  //   type: NodeTypes.CHECKPOINT,
+  //   title: "Data Analytical Tool",
+  //   size: ItemSize.SMALL,
+  //   subtitle:
+  //     "Created a highly complex Data Analytical Tool for a competitors in cosmetics",
+  //   image: "/timeline/dltlabs.svg",
+  //   slideImage: "/timeline/dlt-website.jpg",
+  //   shouldDrawLine: true,
+  //   alignment: Branch.LEFT,
+  // },
   {
     type: NodeTypes.CHECKPOINT,
     title: "UI/UX Developer",
     size: ItemSize.SMALL,
     subtitle:
       "First job! 🥳 Product design and development and worked for 20+ websites, landing pages, mini web games with web optimizations",
-    image: "/timeline/huminos.svg",
-    slideImage: "/timeline/huminos-website.jpg",
+    image: "/timeline/timeus.svg",
+    slideImage: "/timeline/timeus.png",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
@@ -334,8 +334,8 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     size: ItemSize.SMALL,
     subtitle:
       "Spent 4 years laying the foundation of Frontend Engineering, UI/UX, and Fitness!",
-    image: "/timeline/akgec.svg",
-    slideImage: "/timeline/farewell.jpg",
+    image: "/timeline/du.png",
+    slideImage: "/timeline/degreed.gif",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
@@ -402,27 +402,27 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   //   alignment: Branch.LEFT,
   // },
 
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "2017",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Competed Java Certification",
-    slideImage: "/timeline/abes-17.jpg",
-    shouldDrawLine: true,
-    alignment: Branch.RIGHT,
-  },
+  // {
+  //   type: NodeTypes.CHECKPOINT,
+  //   title: "2017",
+  //   size: ItemSize.SMALL,
+  //   subtitle:
+  //     "Competed Java Certification",
+  //   slideImage: "/timeline/abes-17.jpg",
+  //   shouldDrawLine: true,
+  //   alignment: Branch.RIGHT,
+  // },
 
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "Lecture on Web Technologies",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Guided 300+ students on getting started with web technologies like HTML/CSS and JS",
-    slideImage: "/timeline/web-17.jpg",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
-  },
+  // {
+  //   type: NodeTypes.CHECKPOINT,
+  //   title: "Lecture on Web Technologies",
+  //   size: ItemSize.SMALL,
+  //   subtitle:
+  //     "Guided 300+ students on getting started with web technologies like HTML/CSS and JS",
+  //   slideImage: "/timeline/web-17.jpg",
+  //   shouldDrawLine: true,
+  //   alignment: Branch.LEFT,
+  // },
   {
     type: NodeTypes.CHECKPOINT,
     title: "2016",
@@ -432,10 +432,10 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "dupbc.org",
+    title: "dubpc.org",
     size: ItemSize.SMALL,
     subtitle: "Created Website for Computer Science Department Placement Cell, which later provided placement offer to our students.",
-    slideImage: "/timeline/ims-16.jpg",
+    slideImage: "/timeline/DUBPG.gif",
     shouldDrawLine: true,
     alignment: Branch.RIGHT,
   },
@@ -473,8 +473,8 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     size: ItemSize.SMALL,
     subtitle:
       "Created a portfolio website for our College's Computer Science department head.",
-    image: "/timeline/xda.svg",
-    slideImage: "/timeline/xda-rt.jpg",
+    image: "",
+    slideImage: "/timeline/arpita.png",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },

@@ -231,17 +231,17 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "2022",
+    title: "Current",
     size: ItemSize.LARGE,
     shouldDrawLine: false,
     alignment: Branch.LEFT,
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "Frontend Engineer 2 (Current)",
+    title: "Frontend Engineer (Current)",
     size: ItemSize.SMALL,
     subtitle:
-      "Frontend Engineering @ Core team, solving problems around Livingroom device performance",
+      "Frontend Engineering @ Core team, Changed a High-end Liferay based analytical tool to Angular 17, saving a lot of $$ for client😎",
     image: "/timeline/hotstar.svg",
     slideImage: "/timeline/hotstar.jpeg",
     shouldDrawLine: true,
@@ -249,17 +249,17 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "2021",
+    title: "2023",
     size: ItemSize.LARGE,
     shouldDrawLine: false,
     alignment: Branch.LEFT,
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "UI Engineer",
+    title: "Frontend Developer",
     size: ItemSize.SMALL,
     subtitle:
-      "Contributed to Server driven UI framework for powering experiences @ Flipkart Wholesale 😎",
+      "Moved an AngularJS billing module to Liferay CMS, Migrated to Data Warehourse and UI revamp!!",
     image: "/timeline/flipkart.svg",
     slideImage: "/timeline/flipkart.gif",
     shouldDrawLine: true,
@@ -277,10 +277,10 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "UI Engineer (freelance)",
+    title: "Frontend Developer",
     size: ItemSize.SMALL,
     subtitle:
-      "Built solutions for employee engagement, productivity and performance 🎯",
+      "Worked with USAs biggest business listing advertising company and created Dashboards, Data centric analytic reports",
     image: "/timeline/huminos.svg",
     slideImage: "/timeline/huminos-freelance.jpg",
     shouldDrawLine: true,
@@ -288,9 +288,9 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "Motion Graphics (freelance)",
+    title: "Easytoask.org (Volunteer)",
     size: ItemSize.SMALL,
-    subtitle: "Motion Graphics content for Product Launch 🚀",
+    subtitle: "Providing information about Oxygen Cylinders, Hospital Beds at the time of peak Covid-19 outbreak",
     image: "/timeline/octanner.svg",
     slideImage: "/timeline/aftereffects.jpg",
     shouldDrawLine: true,
@@ -301,17 +301,17 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "2019",
+    title: "2020",
     size: ItemSize.LARGE,
     shouldDrawLine: false,
     alignment: Branch.LEFT,
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "UI Engineer",
+    title: "Data Analytical Tools",
     size: ItemSize.SMALL,
     subtitle:
-      "Worked on enterprise blockchain solutions for web. Transforming UI/UX and frontend framework. Built a design system.",
+      "Created a highly complex Data Analytical Tool for a competitors in cosmetics",
     image: "/timeline/dltlabs.svg",
     slideImage: "/timeline/dlt-website.jpg",
     shouldDrawLine: true,
@@ -319,10 +319,10 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "UX Engineer",
+    title: "UI/UX Developer",
     size: ItemSize.SMALL,
     subtitle:
-      "First job! 🥳 Product design and development for employee engagement chatbot suite for workplace by facebook",
+      "First job! 🥳 Product design and development and worked for 20+ websites, landing pages, mini web games with web optimizations",
     image: "/timeline/huminos.svg",
     slideImage: "/timeline/huminos-website.jpg",
     shouldDrawLine: true,
@@ -342,7 +342,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
 
   {
     type: NodeTypes.CHECKPOINT,
-    title: "2018",
+    title: "2017",
     size: ItemSize.LARGE,
     shouldDrawLine: false,
     alignment: Branch.LEFT,
@@ -350,64 +350,64 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   {
     type: NodeTypes.DIVERGE,
   },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "Student lead at SDC-SI",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Represented a team of 39 talented developers. Served different roles of leadership, project management and delivery.",
-    image: "/timeline/si.svg",
-    slideImage: "/timeline/si-head.jpg",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "Lecture on SVG animations",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Guided 200 students to create their first animated SVG using CSS/SMIL at PHP Workshop, SDC-SI",
+  // {
+  //   type: NodeTypes.CHECKPOINT,
+  //   title: "Student lead at SDC-SI",
+  //   size: ItemSize.SMALL,
+  //   subtitle:
+  //     "Represented a team of 39 talented developers. Served different roles of leadership, project management and delivery.",
+  //   image: "/timeline/si.svg",
+  //   slideImage: "/timeline/si-head.jpg",
+  //   shouldDrawLine: true,
+  //   alignment: Branch.LEFT,
+  // },
+  // {
+  //   type: NodeTypes.CHECKPOINT,
+  //   title: "Lecture on SVG animations",
+  //   size: ItemSize.SMALL,
+  //   subtitle:
+  //     "Guided 200 students to create their first animated SVG using CSS/SMIL at PHP Workshop, SDC-SI",
 
-    slideImage: "/timeline/svg-lecture.jpg",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
-  },
+  //   slideImage: "/timeline/svg-lecture.jpg",
+  //   shouldDrawLine: true,
+  //   alignment: Branch.LEFT,
+  // },
+
+  // {
+  //   type: NodeTypes.CHECKPOINT,
+  //   title: "2017",
+  //   size: ItemSize.LARGE,
+  //   shouldDrawLine: false,
+  //   alignment: Branch.RIGHT,
+  // },
+  // {
+  //   type: NodeTypes.CHECKPOINT,
+  //   title: "1st position in Web Designing, IMSU",
+  //   size: ItemSize.SMALL,
+  //   subtitle:
+  //     "Competed against 20+ teams for design and development of web project from scratch",
+  //   slideImage: "/timeline/ims-17.jpg",
+  //   shouldDrawLine: true,
+  //   alignment: Branch.RIGHT,
+  // },
+
+  // {
+  //   type: NodeTypes.CHECKPOINT,
+  //   title: "Lecture on Javascript",
+  //   size: ItemSize.SMALL,
+  //   subtitle:
+  //     "Guided 200 students for javascript fundamentals at Game Development workshop, SDC-SI",
+  //   slideImage: "/timeline/js-17.jpg",
+  //   shouldDrawLine: true,
+  //   alignment: Branch.LEFT,
+  // },
 
   {
     type: NodeTypes.CHECKPOINT,
     title: "2017",
-    size: ItemSize.LARGE,
-    shouldDrawLine: false,
-    alignment: Branch.RIGHT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "1st position in Web Designing, IMSU",
     size: ItemSize.SMALL,
     subtitle:
-      "Competed against 20+ teams for design and development of web project from scratch",
-    slideImage: "/timeline/ims-17.jpg",
-    shouldDrawLine: true,
-    alignment: Branch.RIGHT,
-  },
-
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "Lecture on Javascript",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Guided 200 students for javascript fundamentals at Game Development workshop, SDC-SI",
-    slideImage: "/timeline/js-17.jpg",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
-  },
-
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "1st position in Web Design, ABES ACM",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Competed in web and graphic design challenge with 100+ participants.",
+      "Competed Java Certification",
     slideImage: "/timeline/abes-17.jpg",
     shouldDrawLine: true,
     alignment: Branch.RIGHT,
@@ -432,9 +432,9 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "1st position in Web Designing, IMSU",
+    title: "dupbc.org",
     size: ItemSize.SMALL,
-    subtitle: "Secured 1st prize in Web design challenge against 50+ teams",
+    subtitle: "Created Website for Computer Science Department Placement Cell, which later provided placement offer to our students.",
     slideImage: "/timeline/ims-16.jpg",
     shouldDrawLine: true,
     alignment: Branch.RIGHT,
@@ -442,37 +442,37 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   {
     type: NodeTypes.CONVERGE,
   },
+  // {
+  //   type: NodeTypes.CHECKPOINT,
+  //   title: "",
+  //   size: ItemSize.LARGE,
+  //   shouldDrawLine: false,
+  //   alignment: Branch.LEFT,
+  // },
+  // {
+  //   type: NodeTypes.CHECKPOINT,
+  //   title: "UI/UX, Frontend Engineer",
+  //   size: ItemSize.SMALL,
+  //   subtitle:
+  //     "",
+  //   image: "/timeline/si.svg",
+  //   slideImage: "/timeline/si-start.jpg",
+  //   shouldDrawLine: true,
+  //   alignment: Branch.LEFT,
+  // },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "",
+    title: "2015",
     size: ItemSize.LARGE,
     shouldDrawLine: false,
     alignment: Branch.LEFT,
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "UI/UX, Frontend Engineer",
+    title: "Web Developer",
     size: ItemSize.SMALL,
     subtitle:
-      "Started journey in SDC-SI, where I learnt the fundamentals of Frontend, UI/UX, Graphic design and more...",
-    image: "/timeline/si.svg",
-    slideImage: "/timeline/si-start.jpg",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "2014",
-    size: ItemSize.LARGE,
-    shouldDrawLine: false,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "Recognized Themer",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Awarded as recognized themer,  Developed themes and ROMs for Xperia 2011 devices lineup with over 15k+ downloads. Featured on xda portal twice.",
+      "Created a portfolio website for our College's Computer Science department head.",
     image: "/timeline/xda.svg",
     slideImage: "/timeline/xda-rt.jpg",
     shouldDrawLine: true,

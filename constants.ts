@@ -46,13 +46,7 @@ export const EMAIL = "dineshkumarrrr@gmail.com";
 export const SOCIAL_LINKS = {
   linkedin: "https://www.linkedin.com/in/iamdineshkumar/",
   github: "https://github.com/CodedDecoded",
-  medium: "#",
   instagram: "https://www.instagram.com/dineshslays/",
-  facebook: "#",
-  dribbble: "#",
-  behance: "#",
-  twitter: "#",
-  topmate: "#",
 };
 
 export interface IProject {
@@ -238,7 +232,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "Frontend Engineer",
+    title: "IT Analyst C2",
     size: ItemSize.SMALL,
     subtitle:
       "Frontend Engineering @ Core team, Changed a High-end Liferay based analytical tool to Angular 17, saving a lot of $$ for client😎",
@@ -256,12 +250,12 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   // },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "Frontend Developer",
+    title: "IT Analyst C1",
     size: ItemSize.SMALL,
     subtitle:
       "Moved an AngularJS billing module to Liferay CMS, Migrated to Data Warehourse and UI revamp!!",
-    image: "/timeline/flipkart.svg",
-    slideImage: "/timeline/flipkart.gif",
+    image: "/timeline/tcs-logo-1.svg",
+    slideImage: "/timeline/tcs-page.gif",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
@@ -280,7 +274,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     title: "Frontend Developer",
     size: ItemSize.SMALL,
     subtitle:
-      "Worked with USAs biggest business listing advertising company and created Dashboards, Data centric analytic reports",
+      "Worked with USAs biggest business listing advertisers, created Dashboards, Analytics reports with excellent User Experiences",
     image: "/timeline/teamware.png",
     slideImage: "/timeline/huminos-freelance.jpg",
     shouldDrawLine: true,

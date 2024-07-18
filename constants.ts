@@ -174,8 +174,8 @@ export const SKILLS = {
   frontend: [
     "javascript",
     "typescript",
-    "Bootstrap",
-    "VueJS",
+    "bootstrap",
+    "vuejs",
     "react",
     "redux",
     "next",

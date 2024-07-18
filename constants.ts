@@ -60,15 +60,15 @@ export interface IProject {
 }
 
 export const PROJECTS: IProject[] = [
-  // {
-  //   name: "FigGen - Figma to Code converter",
-  //   image: "/projects/figgen.jpg",
-  //   blurImage: "/projects/blur/figgen-blur.jpg",
-  //   description: "Pixel perfect HTML/Tailwind for Figma Auto layout designs.",
-  //   gradient: ["#1F6582", "#1ABCFE"],
-  //   url: "https://www.figma.com/community/plugin/1065278044402066626",
-  //   tech: ["typescript", "figma", "tailwind"],
-  // },
+  {
+    name: "Techcrook - WordPress Blog",
+    image: "/projects/techcrook_blog.jpg",
+    blurImage: "/projects/blur/figgen-blur.jpg",
+    description: "Pixel perfect Blog for Techcrook",
+    gradient: ["#1F6582", "#1ABCFE"],
+    url: "https://techcrook.com",
+    tech: ["typescript", "figma", "angular"],
+  },
   // {
   //   name: "myOKR Website",
   //   image: "/projects/myokr.jpg",

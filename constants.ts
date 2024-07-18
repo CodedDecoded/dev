@@ -280,7 +280,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     subtitle:
       "Worked with USAs biggest business listing advertisers, created Dashboards, Analytics reports with excellent User Experiences",
     image: "/timeline/teamware.png",
-    slideImage: "/timeline/huminos-freelance.jpg",
+    slideImage: "/timeline/dashboard.png",
     shouldDrawLine: true,
     alignment: Branch.RIGHT,
   },

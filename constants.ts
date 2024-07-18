@@ -61,23 +61,23 @@ export interface IProject {
 
 export const PROJECTS: IProject[] = [
   {
-    name: "Techcrook - WordPress Blog",
-    image: "/projects/techcrook_blog.jpg",
+    name: "Techcrook - WordPress based Crypto Blog",
+    image: "/projects/techcrook_blog.png",
     blurImage: "/projects/blur/figgen-blur.jpg",
     description: "Pixel perfect Blog for Techcrook",
     gradient: ["#1F6582", "#1ABCFE"],
     url: "https://techcrook.com",
     tech: ["typescript", "figma", "angular"],
   },
-  // {
-  //   name: "myOKR Website",
-  //   image: "/projects/myokr.jpg",
-  //   blurImage: "/projects/blur/myokr-blur.jpg",
-  //   description: "Marketing site for OKR Platform by huminos",
-  //   gradient: ["#153BB9", "#0E2C8B"],
-  //   url: "https://www.huminos.com/",
-  //   tech: ["react", "next", "gsap", "tailwind"],
-  // },
+  {
+    name: "CapitalLaundry - Laundry for Gurgaon",
+    image: "/projects/capitallaundry.png",
+    blurImage: "/projects/blur/myokr-blur.jpg",
+    description: "CapitalLaundry.com",
+    gradient: ["#153BB9", "#0E2C8B"],
+    url: "#",
+    tech: ["react", "next", "gsap", "tailwind"],
+  },
   // {
   //   name: "DLT Labs Website",
   //   image: "/projects/dlt-website.jpg",

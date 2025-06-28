@@ -78,96 +78,6 @@ export const PROJECTS: IProject[] = [
     url: "#",
     tech: ["react", "next", "gsap", "tailwind"],
   },
-  // {
-  //   name: "DLT Labs Website",
-  //   image: "/projects/dlt-website.jpg",
-  //   blurImage: "/projects/blur/dlt-website-blur.jpg",
-  //   description: "Marketing site with an Internal CMS from scratch",
-  //   gradient: ["#245B57", "#004741"],
-  //   url: "https://www.dltlabs.com/",
-  //   tech: ["figma", "angular", "gsap"],
-  // },
-  // {
-  //   name: "DL Unify",
-  //   image: "/projects/dl-unify.jpg",
-  //   blurImage: "/projects/blur/dl-unify-blur.jpg",
-  //   description: "Built the application from zero to production 🚀",
-  //   gradient: ["#003052", "#167187"],
-  //   url: "https://dlunify.com/",
-  //   tech: ["tailwind", "angular", "gsap", "figma"],
-  // },
-  // {
-  //   name: "ngx-quill-upload",
-  //   image: "/projects/ngx-quill-upload.jpg",
-  //   blurImage: "/projects/blur/ngx-quill-upload-blur.jpg",
-  //   description: "NPM Package for Quill JS uploads from Angular",
-  //   gradient: ["#3A0000", "#771E1E"],
-  //   url: "https://www.npmjs.com/package/ngx-quill-upload",
-  //   tech: ["npm", "angular", "typescript"],
-  // },
-  // {
-  //   name: "Huminos website",
-  //   image: "/projects/huminos.jpg",
-  //   blurImage: "/projects/blur/huminos-blur.jpg",
-  //   description: "Marketing site for Huminos bots for workplace by facebook",
-  //   gradient: ["#17007B", "#3A2C79"],
-  //   url: "https://bots.huminos.com/",
-  //   tech: ["javascript", "sass", "svg", "gulp"],
-  // },
-  // {
-  //   name: "AKGEC - College Website",
-  //   image: "/projects/akgec.jpg",
-  //   blurImage: "/projects/blur/akgec-blur.jpg",
-  //   description: "Contributed in overall design and development",
-  //   gradient: ["#5E4C06", "#746528"],
-  //   url: "https://www.akgec.ac.in/",
-  //   tech: ["javascript", "html", "css"],
-  // },
-  // {
-  //   name: "Alpha Aesthetics",
-  //   image: "/projects/alpha.jpg",
-  //   blurImage: "/projects/blur/alpha-blur.jpg",
-  //   description: "Designed and developed the platform",
-  //   gradient: ["#172839", "#334659"],
-  //   url: "https://alpha-aesthetics.ayushsingh.net/",
-  //   tech: ["illustrator", "javascript", "angular"],
-  // },
-  // {
-  //   name: "Amantrya - Polling Web App",
-  //   image: "/projects/farewell18.jpg",
-  //   blurImage: "/projects/blur/farewell18-blur.jpg",
-  //   description: "Dark mode dated from 2017 🔥",
-  //   gradient: ["#142D46", "#2E4964"],
-  //   url: "https://farewell18.ayushsingh.net/",
-  //   tech: ["javascript", "html", "css"],
-  // },
-  // {
-  //   name: "BDC 2018 Web Portal",
-  //   image: "/projects/bdc18.jpg",
-  //   blurImage: "/projects/blur/bdc18-blur.jpg",
-  //   description: "Built the portal from zero to production 🚀",
-  //   gradient: ["#470700", "#712A23"],
-  //   url: "https://bdc2018.ayushsingh.net/",
-  //   tech: ["javascript", "html", "css"],
-  // },
-  // {
-  //   name: "Scrolls 2017 - Website",
-  //   image: "/projects/scrolls.jpg",
-  //   blurImage: "/projects/blur/scrolls-blur.jpg",
-  //   description: "Built the portal from zero to production 🚀",
-  //   gradient: ["#685506", "#7B6921"],
-  //   url: "https://scrolls-17.ayushsingh.net/",
-  //   tech: ["angular", "html", "css"],
-  // },
-  // {
-  //   name: "Cardize - Visiting Cards",
-  //   image: "/projects/cardize.jpg",
-  //   blurImage: "/projects/blur/cardize-blur.jpg",
-  //   description: "First web project! Custom visiting card generator",
-  //   gradient: ["#552A04", "#614023"],
-  //   url: "https://cardize.ayushsingh.net/",
-  //   tech: ["javascript", "html", "css"],
-  // },
 ];
 
 export const SKILLS = {
@@ -209,30 +119,33 @@ export enum ItemSize {
 }
 
 export const TIMELINE: Array<TimelineNodeV2> = [
-  // {
-  //   type: NodeTypes.CHECKPOINT,
-  //   title: "2023",
-  //   size: ItemSize.LARGE,
-  //   shouldDrawLine: false,
-  //   alignment: Branch.LEFT,
-  // },
-  // {
-  //   type: NodeTypes.CHECKPOINT,
-  //   title: "Speaker at React India",
-  //   size: ItemSize.SMALL,
-  //   subtitle:
-  //     "Discussed on Interaction to Next Paint (INP), a Google Core Web Vital metric",
-  //   image: "/timeline/reactindia.svg",
-  //   slideImage: "/timeline/reactindia.jpg",
-  //   shouldDrawLine: true,
-  //   alignment: Branch.LEFT,
-  // },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "2024 (Current)",
+    title: "2025(Current)",
     size: ItemSize.LARGE,
     shouldDrawLine: false,
     alignment: Branch.LEFT,
+  },
+  {
+    type: NodeTypes.CHECKPOINT,
+    title: "Senior Software Developer",
+    size: ItemSize.SMALL,
+    subtitle:
+      "Micro front-end-based UI Portal development Pre-market AI forecasting tool Aviso based on Vue.js used by Lenovo and Cisco 😎",
+    image: "/timeline/programming.svg",
+    slideImage: "/timeline/Aviso.gif",
+    shouldDrawLine: true,
+    alignment: Branch.LEFT,
+  },
+  {
+    type: NodeTypes.CHECKPOINT,
+    title: "2024",
+    size: ItemSize.LARGE,
+    shouldDrawLine: false,
+    alignment: Branch.LEFT,
+  },
+  {
+    type: NodeTypes.DIVERGE,
   },
   {
     type: NodeTypes.CHECKPOINT,
@@ -243,25 +156,20 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     image: "/timeline/tcs-logo-1.svg",
     slideImage: "/timeline/tcs-page.gif",
     shouldDrawLine: true,
-    alignment: Branch.LEFT,
+    alignment: Branch.RIGHT,
   },
-  // {
-  //   type: NodeTypes.CHECKPOINT,
-  //   title: "2023",
-  //   size: ItemSize.LARGE,
-  //   shouldDrawLine: false,
-  //   alignment: Branch.LEFT,
-  // },
   {
     type: NodeTypes.CHECKPOINT,
     title: "IT Analyst C1",
     size: ItemSize.SMALL,
-    subtitle:
-      "Moved an AngularJS billing module to Liferay CMS, Migrated to Data Warehourse and UI revamp!!",
+    subtitle: "Moved an AngularJS billing module to Liferay CMS, Migrated to Data Warehourse and UI revamp!!",
     image: "/timeline/tcs-logo-1.svg",
     slideImage: "/timeline/tcs-page.gif",
     shouldDrawLine: true,
-    alignment: Branch.LEFT,
+    alignment: Branch.RIGHT,
+  },
+  {
+    type: NodeTypes.CONVERGE,
   },
   {
     type: NodeTypes.CHECKPOINT,
@@ -292,7 +200,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     image: "/timeline/easytoask.png",
     slideImage: "/timeline/Easytoask.png",
     shouldDrawLine: true,
-    alignment: Branch.LEFT,
+    alignment: Branch.RIGHT,
   },
   {
     type: NodeTypes.CONVERGE,
@@ -304,17 +212,9 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     shouldDrawLine: false,
     alignment: Branch.LEFT,
   },
-  // {
-  //   type: NodeTypes.CHECKPOINT,
-  //   title: "Data Analytical Tool",
-  //   size: ItemSize.SMALL,
-  //   subtitle:
-  //     "Created a highly complex Data Analytical Tool for a competitors in cosmetics",
-  //   image: "/timeline/dltlabs.svg",
-  //   slideImage: "/timeline/dlt-website.jpg",
-  //   shouldDrawLine: true,
-  //   alignment: Branch.LEFT,
-  // },
+  {
+    type: NodeTypes.DIVERGE,
+  },
   {
     type: NodeTypes.CHECKPOINT,
     title: "UI/UX Developer",
@@ -324,20 +224,22 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     image: "/timeline/timeuslogo.png",
     slideImage: "/timeline/timeus.png",
     shouldDrawLine: true,
-    alignment: Branch.LEFT,
+    alignment: Branch.RIGHT,
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "Graduated from College 🎓",
+    title: "Graduated from Delhi University 🎓",
     size: ItemSize.SMALL,
     subtitle:
-      "Spent 4 years laying the foundation of Frontend Engineering, UI/UX, and Fitness!",
+      "Completed Bachelor of Technology in Computer Science! with 7.2CGPA",
     image: "/timeline/du.png",
     slideImage: "/timeline/degreed.gif",
     shouldDrawLine: true,
-    alignment: Branch.LEFT,
+    alignment: Branch.RIGHT,
   },
-
+  {
+    type: NodeTypes.CONVERGE,
+  },
   {
     type: NodeTypes.CHECKPOINT,
     title: "2017",
@@ -348,69 +250,6 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   {
     type: NodeTypes.DIVERGE,
   },
-  // {
-  //   type: NodeTypes.CHECKPOINT,
-  //   title: "Student lead at SDC-SI",
-  //   size: ItemSize.SMALL,
-  //   subtitle:
-  //     "Represented a team of 39 talented developers. Served different roles of leadership, project management and delivery.",
-  //   image: "/timeline/si.svg",
-  //   slideImage: "/timeline/si-head.jpg",
-  //   shouldDrawLine: true,
-  //   alignment: Branch.LEFT,
-  // },
-  // {
-  //   type: NodeTypes.CHECKPOINT,
-  //   title: "Lecture on SVG animations",
-  //   size: ItemSize.SMALL,
-  //   subtitle:
-  //     "Guided 200 students to create their first animated SVG using CSS/SMIL at PHP Workshop, SDC-SI",
-
-  //   slideImage: "/timeline/svg-lecture.jpg",
-  //   shouldDrawLine: true,
-  //   alignment: Branch.LEFT,
-  // },
-
-  // {
-  //   type: NodeTypes.CHECKPOINT,
-  //   title: "2017",
-  //   size: ItemSize.LARGE,
-  //   shouldDrawLine: false,
-  //   alignment: Branch.RIGHT,
-  // },
-  // {
-  //   type: NodeTypes.CHECKPOINT,
-  //   title: "1st position in Web Designing, IMSU",
-  //   size: ItemSize.SMALL,
-  //   subtitle:
-  //     "Competed against 20+ teams for design and development of web project from scratch",
-  //   slideImage: "/timeline/ims-17.jpg",
-  //   shouldDrawLine: true,
-  //   alignment: Branch.RIGHT,
-  // },
-
-  // {
-  //   type: NodeTypes.CHECKPOINT,
-  //   title: "Lecture on Javascript",
-  //   size: ItemSize.SMALL,
-  //   subtitle:
-  //     "Guided 200 students for javascript fundamentals at Game Development workshop, SDC-SI",
-  //   slideImage: "/timeline/js-17.jpg",
-  //   shouldDrawLine: true,
-  //   alignment: Branch.LEFT,
-  // },
-
-  // {
-  //   type: NodeTypes.CHECKPOINT,
-  //   title: "2017",
-  //   size: ItemSize.SMALL,
-  //   subtitle:
-  //     "Competed Java Certification",
-  //   slideImage: "/timeline/abes-17.jpg",
-  //   shouldDrawLine: true,
-  //   alignment: Branch.RIGHT,
-  // },
-
   {
     type: NodeTypes.CHECKPOINT,
     title: "Web Developer",
@@ -419,15 +258,8 @@ export const TIMELINE: Array<TimelineNodeV2> = [
       "Created a portfolio website for our College's Computer Science department head.",
     slideImage: "/timeline/arpita.png",
     shouldDrawLine: true,
-    alignment: Branch.LEFT,
+    alignment: Branch.RIGHT,
   },
-  // {
-  //   type: NodeTypes.CHECKPOINT,
-  //   title: "2016",
-  //   size: ItemSize.LARGE,
-  //   shouldDrawLine: false,
-  //   alignment: Branch.RIGHT,
-  // },
   {
     type: NodeTypes.CHECKPOINT,
     title: "dubpc.org",
@@ -440,24 +272,6 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   {
     type: NodeTypes.CONVERGE,
   },
-  // {
-  //   type: NodeTypes.CHECKPOINT,
-  //   title: "",
-  //   size: ItemSize.LARGE,
-  //   shouldDrawLine: false,
-  //   alignment: Branch.LEFT,
-  // },
-  // {
-  //   type: NodeTypes.CHECKPOINT,
-  //   title: "UI/UX, Frontend Engineer",
-  //   size: ItemSize.SMALL,
-  //   subtitle:
-  //     "",
-  //   image: "/timeline/si.svg",
-  //   slideImage: "/timeline/si-start.jpg",
-  //   shouldDrawLine: true,
-  //   alignment: Branch.LEFT,
-  // },
   {
     type: NodeTypes.CHECKPOINT,
     title: "2013",
@@ -465,17 +279,6 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     shouldDrawLine: false,
     alignment: Branch.LEFT,
   },
-  // {
-  //   type: NodeTypes.CHECKPOINT,
-  //   title: "Web Developer",
-  //   size: ItemSize.SMALL,
-  //   subtitle:
-  //     "Created a portfolio website for our College's Computer Science department head.",
-  //   image: "",
-  //   slideImage: "/timeline/arpita.png",
-  //   shouldDrawLine: true,
-  //   alignment: Branch.LEFT,
-  // },
 ];
 
 export type TimelineNodeV2 = CheckpointNode | BranchNode;
